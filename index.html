@@ -1,0 +1,1798 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title class="title_hidden_header"> RV HIGHLIGHT MEADOWS</title>
+    <link rel="icon" href="./ll.png" type="image/x-icon" />
+
+    <!-- <img src="./ll.png" alt="logo" class="img-fluid" /> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+  rel="stylesheet"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
+  <script src="./assets/js/custom.js"></script>
+    <!-- <link rel="stylesheet" href="/css/style.css"> -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <style>
+      .success_msg,
+      .error_msg {
+        display: none;
+        text-align: center;
+      }
+      .form-sch {
+        width: 70%;
+        margin: auto;
+      }
+      @media screen and (max-width: 690px) {
+        .form-sch {
+          width: 100%;
+          margin: auto;
+          margin-top: 1rem;
+        }
+      }
+      .privacyPolicy > h3 {
+        font-size: 14px;
+      }
+      .privacyPolicy > p {
+        font-size: 12px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
+        <div class="container">
+          <a class="navbar-brand" href="">
+            <img src="./ll.png" alt="logo" class="img-fluid" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu">
+              <li class="nav-item">
+                <a class="nav-link" id="home-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="overview-link" href="#overview">Overview</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="gallery-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="choose-link" href="#choose">Why choose us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="amenities-link" href="#amenities">Amenities</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="location-link" href="#location">Location</a>
+              </li>
+              <li class="nav-item d-desk">
+                <button
+                  class="btn visit_btn text-white shadow-sm"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal1"
+                >
+                  Download Brochure
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      
+    </header>
+    <section id="home" style="margin-top: 1rem;">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <!-- Text Content -->
+          <div class="col-lg-6 order-2 order-lg-1">
+            <div>
+              <div class="p-left">
+                <div class="headinga top_padding" style="margin-top: 2px;">
+                  <h1>
+                    RV HIGHLIGHT MEADOWS
+                    <span class="d-block">Premium Gated Farm Plot</span>
+                  </h1>
+                  <p class="pt-2">
+                    Elevate your lifestyle amidst expansive farm plots, where
+                    space meets opportunity. Welcome to a life redefined.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Image Content -->
+          <div class="col-lg-6 order-1 order-lg-2">
+            <img
+              src="./b.jpg"
+              alt="Highlight Meadows"
+              class="img-fluid"
+              style="width: 100%; height: auto; object-fit: cover;"
+            />
+          </div>
+        </div>
+    
+        <!-- Form Section -->
+        <div class="row form-sch align-items-center" style="margin-top: 4rem;">
+          <div class="col-lg-12">
+            <div class="text-center text-dark fs-5">
+              <p><b>Schedule A Visit Now</b></p>
+            </div>
+            <div id="contactForm" name="contactForm" class="mt-3">
+              <div class="enq_form">
+                <div class="row success_msg">
+                  <h4>
+                    We appreciate your interest in our project. Our team
+                    shall contact you very soon.
+                  </h4>
+                </div>
+                <div class="row error_msg">
+                  <h4>Sorry! Something went wrong. Please try again.</h4>
+                </div>
+                <div class="sidenav_form">
+                  <form id="main-popup" name="modal-form" action="https://formspree.io/f/xgveyvjv" method="POST">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <input
+                            type="text"
+                            class="form_control name"
+                            name="name"
+                            id="name"
+                            placeholder="Full Name*"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-12">
+                        <div class="form-group phone-open-div">
+                          <input
+                            type="tel"
+                            class="form_control phone"
+                            name="phone"
+                            id="phone"
+                            placeholder="Mobile Number*"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <input
+                            type="text"
+                            class="form_control email"
+                            name="email"
+                            id="email"
+                            placeholder="Email address*"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <div class="text-center">
+                            <button
+                              type="submit"
+                              class="submit_button form_control mt-3 btnn shadow-sm fw-bold"
+                              style="padding: 10px; border: none; color: rgb(0, 0, 0); width: 100%;"
+                            >
+                              SUBMIT
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+   
+    <section id="overview">
+      <div class="container-fluid">
+        <div class="row">
+          
+          <div class="col-lg-12">
+            <div class="space-20"></div>
+            <div class="p-right">
+              <div class="heading">
+                <h1>Seed Your Prosperity with RV HIGHLIGHT MEADOWS</h1>
+                <p class="pt-2">
+                    At RV Promoters, we focus on developing positive, smarter, and sustainable communities to elevate the lifestyles for everyone. We believe that every customer would like to be surrounded by the finer things in life, every property we develop has been prudently considered, thoughtfully planned, methodically designed, and robustly built with a seasoned buyer in mind. Our commitment to our customers has been at the core of what we do and have always placed a premium on a collaborative and a “win-win” relationship’s.
+                </p>
+                <!-- <div class="space-80"></div>
+                <div class="space-30"></div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner_green">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="space-20">
+              <div class="p-right">
+                <div class="heading space-10" style="padding-top: 2rem;">
+                  <h1 class="text-white">
+                    Grow Your Wealth Safely with  RV HIGHLIGHT MEADOWS Farm Plots
+                  </h1>
+                  <p class="text-white" style="margin-top: 1.5rem;">
+                    Cultivate financial security at  RV HIGHLIGHT MEADOWS Farm Plots. Rooted
+                    in trust and growth, our plots offer a safe haven for your
+                    wealth to blossom. Invest confidently in a future where
+                    prosperity flourishes with every season.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row d-desk">
+              <div class="col-lg-6">
+                <div class="bgpink2 d-flex align-items-center">
+                  <i class="fas fa-chart-line text-success me-2"></i>
+                  <small>Stable Asset</small>
+                </div>
+                <div class="bgpink2 d-flex align-items-center">
+                  <i class="fas fa-handshake text-success me-2" style="font-size: 11px;"></i>
+                  <small>Diversification of Portfolio</small>
+                </div>
+                <div class="bgpink2 d-flex align-items-center">
+                  <i class="fas fa-arrow-up text-success me-2" ></i>
+                  <small>Potential for Appreciation</small>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="bgpink2 d-flex align-items-center">
+                  <i class="fas fa-map-marked-alt text-success me-2"></i>
+                  <small>Land Value Appreciation</small>
+                </div>
+                <div class="bgpink2 d-flex align-items-center">
+                  <i class="fas fa-balance-scale text-success me-2"></i>
+                  <small>Inflation Hedge</small>
+                </div>
+                <div class="bgpink2 d-flex align-items-center">
+                  <i class="fas fa-university text-success me-2"></i>
+                  <small>Long-Term Legacy</small>
+                </div>
+              </div>
+            </div>
+          
+            <div class="row d-mob">
+              <div class="col-lg-12">
+                <div class="slick-slider">
+                  <div class="element element-1">
+                    <div class="bgpink2 d-flex align-items-center">
+                      <i class="fas fa-chart-line text-success me-2"></i>
+                      <small>Stable Asset</small>
+                    </div>
+                  </div>
+                  <div class="element element-2">
+                    <div class="bgpink2 d-flex align-items-center">
+                      <i class="fas fa-handshake text-success me-2"></i>
+                      <small>Diversification of Portfolio</small>
+                    </div>
+                  </div>
+                  <div class="element element-3">
+                    <div class="bgpink2 d-flex align-items-center">
+                      <i class="fas fa-arrow-up text-success me-2"></i>
+                      <small>Potential for Appreciation</small>
+                    </div>
+                  </div>
+                  <div class="element element-4">
+                    <div class="bgpink2 d-flex align-items-center">
+                      <i class="fas fa-map-marked-alt text-success me-2"></i>
+                      <small>Land Value Appreciation</small>
+                    </div>
+                  </div>
+                  <div class="element element-5">
+                    <div class="bgpink2 d-flex align-items-center">
+                      <i class="fas fa-balance-scale text-success me-2"></i>
+                      <small>Inflation Hedge</small>
+                    </div>
+                  </div>
+                  <div class="element element-6">
+                    <div class="bgpink2 d-flex align-items-center">
+                      <i class="fas fa-university text-success me-2"></i>
+                      <small>Long-Term Legacy</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-end pb-4 text-white">
+                  <small>Scroll to view more>>></small>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+        
+        </div>
+      </div>
+    </section>
+    
+    <section id="gallery">
+      <div class="container">
+       
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="slick-slider1">
+              <div class="element element-1 zoom">
+                <img src="./assets/images/g1.jpeg" alt="gallery_img" class="img-fluid" />
+              </div>
+             
+              <div class="element element-5 zoom">
+                <img src="./assets/images/g2.jpeg" alt="gallery_img" class="img-fluid" />
+              </div>
+              <div class="element element-6 zoom">
+                <img src="./assets/images/g3.jpeg" alt="gallery_img" class="img-fluid" />
+              </div>
+              <div class="element element-7 zoom">
+                <img src="./assets/images/g4.jpeg" alt="gallery_img" class="img-fluid" />
+              </div>
+              <div class="element element-8 zoom">
+                <img src="./assets/images/g5.jpeg" alt="gallery_img" class="img-fluid" />
+              </div>
+              <div class="element element-8 zoom">
+                <img src="./assets/images/g6.jpeg" alt="gallery_img" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <div class="header">
+      <h1>RV HIGHLIGHT MEADOWS
+      </h1>
+      <p>Premium Gated Farm Plot</p>
+      <button data-bs-toggle="modal"
+      data-bs-target="#exampleModal1">Register To Unlock Special Offer Price Now</button>
+  </div>
+
+  <div class="table-container">
+      <table>
+          <thead>
+              <tr>
+                  <th>Sq. Feet</th>
+                  <th>Guntas</th>
+                  <th>Offer Price</th>
+              </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>6000</td>
+              <td>5.5</td>
+              <td 
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal1"> <div class="unlock-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path d="M12 2a5 5 0 00-5 5v2H5a2 2 0 00-2 2v8a2 2 0 002 2h14a2 2 0 002-2v-8a2 2 0 00-2-2h-2V7a5 5 0 00-5-5zM7 9V7a4 4 0 118 0v2H7zm7 6v2h-4v-2H8l4-4 4 4h-2z"></path></svg> Unlock Price Now</div>
+        </td>
+        
+            </tr>
+              <tr>
+                  <td>8827.5</td>
+                  <td>8.1</td>
+                  <td 
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal1"> <div class="unlock-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path d="M12 2a5 5 0 00-5 5v2H5a2 2 0 00-2 2v8a2 2 0 002 2h14a2 2 0 002-2v-8a2 2 0 00-2-2h-2V7a5 5 0 00-5-5zM7 9V7a4 4 0 118 0v2H7zm7 6v2h-4v-2H8l4-4 4 4h-2z"></path></svg> Unlock Price Now</div>
+            </td>
+            
+                </tr>
+              <tr>
+                  <td> 8729.5</td>
+                  <td>8.0</td>
+                  <td 
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal1"> <div class="unlock-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path d="M12 2a5 5 0 00-5 5v2H5a2 2 0 00-2 2v8a2 2 0 002 2h14a2 2 0 002-2v-8a2 2 0 00-2-2h-2V7a5 5 0 00-5-5zM7 9V7a4 4 0 118 0v2H7zm7 6v2h-4v-2H8l4-4 4 4h-2z"></path></svg> Unlock Price Now</div>
+            </td>
+                
+                </tr>
+              <tr>
+                  <td>10117.5  </td>
+                  <td>9.3</td>
+                  <td 
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal1"> <div class="unlock-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path d="M12 2a5 5 0 00-5 5v2H5a2 2 0 00-2 2v8a2 2 0 002 2h14a2 2 0 002-2v-8a2 2 0 00-2-2h-2V7a5 5 0 00-5-5zM7 9V7a4 4 0 118 0v2H7zm7 6v2h-4v-2H8l4-4 4 4h-2z"></path></svg> Unlock Price Now</div>
+            </td>
+                  
+                </tr>
+              <tr>
+                  <td>6278.4</td>
+                  <td>5.8</td>
+                  <td 
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal1"> <div class="unlock-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path d="M12 2a5 5 0 00-5 5v2H5a2 2 0 00-2 2v8a2 2 0 002 2h14a2 2 0 002-2v-8a2 2 0 00-2-2h-2V7a5 5 0 00-5-5zM7 9V7a4 4 0 118 0v2H7zm7 6v2h-4v-2H8l4-4 4 4h-2z"></path></svg> Unlock Price Now</div>
+            </td>
+               
+                </tr>
+              <tr>
+                <td>7753.7</td>
+                <td>57.1</td>
+                <td 
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal1"> <div class="unlock-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path d="M12 2a5 5 0 00-5 5v2H5a2 2 0 00-2 2v8a2 2 0 002 2h14a2 2 0 002-2v-8a2 2 0 00-2-2h-2V7a5 5 0 00-5-5zM7 9V7a4 4 0 118 0v2H7zm7 6v2h-4v-2H8l4-4 4 4h-2z"></path></svg> Unlock Price Now</div>
+            </td>
+               
+              </tr>
+            <tr>
+              <td>7623.0</td>
+              <td>7.0</td>
+           
+              <td 
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal1"> <div class="unlock-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path d="M12 2a5 5 0 00-5 5v2H5a2 2 0 00-2 2v8a2 2 0 002 2h14a2 2 0 002-2v-8a2 2 0 00-2-2h-2V7a5 5 0 00-5-5zM7 9V7a4 4 0 118 0v2H7zm7 6v2h-4v-2H8l4-4 4 4h-2z"></path></svg> Unlock Price Now</div>
+            </td>
+          </tr>
+          <tr>
+            <td>9543.1</td>
+            <td>8.8</td>
+            <td 
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal1"> <div class="unlock-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path d="M12 2a5 5 0 00-5 5v2H5a2 2 0 00-2 2v8a2 2 0 002 2h14a2 2 0 002-2v-8a2 2 0 00-2-2h-2V7a5 5 0 00-5-5zM7 9V7a4 4 0 118 0v2H7zm7 6v2h-4v-2H8l4-4 4 4h-2z"></path></svg> Unlock Price Now</div>
+            </td>
+           
+          </tr>
+          </tbody>
+      </table>
+      <!-- <p class="offer-note">*Offer Price for Limited Period*</p> -->
+      <div class="offer-note-container">
+        <p class="offer-note">
+          *Offer Price for Limited Period* | Avail Early Bird Discount Now! | 
+          Hurry, Offer Ends Soon!
+        </p>
+      </div>
+      
+  </div>
+
+  
+    <section id="choose">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="heading space-10">
+              <h3 class="text-center">Why Choose RV HIGHLIGHT MEADOWS?</h3>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 small_icons">
+            <div class="text-left bg-pink small_iconss">
+              <i class="fas fa-map-marker-alt text-success fa-2x"></i>
+              <h4>Prime Location</h4>
+              <p>
+                The project is ideally located near Huskur Village, Doddaballapur Taluk, Bengaluru, offering easy access to the airport, top schools, and essential amenities, ensuring a well-connected and convenient living experience.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 small_icons">
+            <div class="text-left bg-pink small_iconss">
+              <i class="fas fa-expand-arrows-alt text-success fa-2x"></i>
+              <h4>Expansive Plots</h4>
+              <p>
+                RV HIGHLIGHT MEADOWS features spacious farm plots ranging from 6000 sqft to 12000 sqft, providing residents with the freedom to design their ideal homes and landscapes amidst abundant open space.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 small_icons">
+            <div class="text-left bg-pink small_iconss">
+              <i class="fas fa-leaf text-success fa-2x"></i>
+              <h4>Fruit Plantations</h4>
+              <p>
+                The plantation features a variety of fruitful trees including Ramphala, Guava, Star Fruit, Jackfruit, Orange, Mango, Papaya, Sapota, Lime, Pomegranate, and Coconut, offering a rich, diverse, and abundant harvest.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 small_icons">
+            <div class="text-left bg-pink small_iconss">
+              <i class="fas fa-school text-success fa-2x"></i>
+              <h4> Learning Zone</h4>
+              <p>
+                RV HIGHLIGHT MEADOWS is conveniently located near renowned schools, making it an ideal choice for families looking for quality education options and a great living environment for their children.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <section id="amenities">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-lg-12 gradient_green rounded-3">
+            <div class="heading space-10">
+              <h3 class="text-center text-white" style="padding-top: 3rem;">
+                Thoughtfully Curated Amenities
+              </h3>
+            </div>
+            <div class="row pb-5">
+              <div class="col-lg-12">
+                <div class="slick-slider11">
+                  <div class="element element-2">
+                    <img
+                      src="./assets/images/gra.jpeg"
+                      alt="amenities"
+                      class="img-fluid"
+                    />
+                    <h5 class="pt-3 text-white">GRAND ENTRANCE ARCH 
+                    </h5>
+                  </div>
+                  <div class="element element-1">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPQTvdSzA_Jpe1Zrr3h9tZiHw2unThYFzijIJHE731kFrLp6LQHPlLjSHvq1HnuaLpEMw&usqp=CAU"
+                      alt="amenities"
+                      class="img-fluid"
+                    />
+                    <h5 class="pt-3 text-white">CCTV SURVEILLANCE
+                    </h5>
+                  </div>
+                  
+                  <div class="element element-3">
+                    <img
+                      src="https://5.imimg.com/data5/YX/FL/BE/SELLER-769232/security-check-entrance-system-500x500.jpg"
+                      alt="amenities"
+                      class="img-fluid"
+                    />
+                    <h5 class="pt-3 text-white">SECURITY AT ENTRANCE GATE
+                    </h5>
+                  </div>
+                  <div class="element element-4">
+                    <img
+                      src="data:image/jpeg;base64,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"
+                      alt="amenities"
+                      class="img-fluid"
+                    />
+                    <h5 class="pt-3 text-white">LANDSCAPE GARDEN & PARK
+                    </h5>
+                  </div>
+                  <div class="element element-5">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLYCANkyPwvVJR0cpP0hz18uw3pJp1S8J54A&s"
+                      alt="amenities"
+                      class="img-fluid"
+                    />
+                    <h5 class="pt-3 text-white">CHILDREN'S PLAY AREA
+                    </h5>
+                  </div>
+                  <div class="element element-6">
+                    <img
+                      src="https://content.jdmagicbox.com/comp/def_content/meditation_centres/default-meditation-centres-16.jpg"
+                      alt="amenities"
+                      class="img-fluid"
+                    />
+                    <h5 class="pt-3 text-white">YOGA &MEDITATION CENTRE
+                    </h5>
+                    <h5></h5>
+                  </div>
+                  <div class="element element-7">
+                    <img
+                      src="./assets/images/a3m.jpeg"
+                      alt="amenities"
+                      class="img-fluid"
+                    />
+                    <h5 class="pt-3 text-white">3MTR WALKING WAY
+                    </h5>
+                  </div>
+                  
+                  <div class="element element-11">
+                    <img
+                      src="./assets/images/amu.jpg"
+                      alt="amenities"
+                      class="img-fluid"
+                    />
+                    <h5 class="pt-3 text-white">UNDERGROUND ELECTRICITY
+                    </h5>
+                  </div>
+                  <div class="element element-12">
+                    <img
+                      src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUSExMWFRUXFxgaGBcXGBcYFxoYGBcYHRgYGBgaHygiGBolGxgYIzIhJSorLi4uHR8zODMsNygtLisBCgoKDg0OGhAQGzImICUtLS8tOC41LS01LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tNS0tLS0tLf/AABEIALcBFAMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAFAAIDBAYBB//EAEQQAAECBAMFBQUGBAMIAwAAAAECEQADITEEEkEFIlFhcQYTgZGhMrHB0fAUQlJi4fEjcpLSFYKiFiQzQ1NUsuIHY8L/xAAaAQADAQEBAQAAAAAAAAAAAAAAAQIDBAUG/8QANBEAAgECBAMGBQQBBQAAAAAAAAECAxEEEiExE0FRBRRhkaHwIjJScdFCgbHB4QYVIzPx/9oADAMBAAIRAxEAPwDHScXMWTInlKkEF8oVvlRbMcqg6nBo9ACGFIB7TUtMwpCixJYqzEhBOUApU50tzaCf2hAAxCC+WU7LclO/RJVXdOmvWG4vbMvEpElSzKUFOlawkliBQkWDpB6nrG2aTXxPX+ThjHK7paALETJO7lz5g+clmJ5J+6X0tBnDYjMw9kJFWorKCSRUmzv8IZidmIlqMqcClSUumalRyFwopcEOMxrmdqU538LsRMyWQmYoKcEuiiVMHGcmp1Aa14l0JzlaO46lWCjdvQvycemYQlH4XP1x8+sSkRzBbNRKDJFdSWc9Wicoj6GgqihapufN1503P/j2KxEcaLBRDckakKRBlhZYmyR3JCHmIWhwEShEdywCzEWWOhMS5Y6EwCzEYEdaJAmOFQdnD2Z6uz+6C9ib3GtDgIkCIdkh3JzETQ4CJFJa9IjnzUobMbkAC5JJAoOpEJyS3ErvRHWhNEqUuSBcM44PaHiQeEF0K7IWjoTFgYc8IenDGHmQtXyKU/EJlsVOxUEvoCbPwEDJ+0zInkklSk5mqEuCQyVJOiczuLhntBDaU8OqQlPeKKSCkKCSCUjK+bi5APENGVxU5LJSSlQYFAUAJg3lS3UQd5TgXb2E04+ZjMQ1pFnr4DC3jmmt/f7e2a/CYjD4mZLIotRmJWgpO9nAy2G97C1Uolx1Pnk1OWYpIqAWfjzjd/8AxwFFSkpBGZX3ZYWQcrE57S0sQVKPtAUrbEY6SZU5YOjeoHzjzaks0U3uepSjlk4ljZ0hwFklLHxIJqQ1iKecG9p4NMrJOkKzo3b+0Fb2WgsAAwVTWASsYju0SpYc6qZi5fnwMdXjFrT3egDZQ9K36X9Y5U5M0cVfUnx2PBCySApTDNR3O8fiDzaAWLBByq0fxD35wSx2BmZitw2exIJJToGDH01pA5cmYVGYA1X0dybAGt+HKNYpcjSnZcxqU0HTrrU8v1hpp9B30icLAs1DcdHdPCIZat5/dpTifCKNBTVsd5weghQ/aVF8X6OGJSx/p8mhQNlJaEsvFlQyrSZistMyqC9XPNiztxEVTLsFDKdDQ+fTzibZeCXPmJkoqVsBdhW9qAQTwOCSlZTM3ZctYMwKbMd4BWQgP5M3W8O9iW1EZJkzQhSkgshSd5TAkaBlO4ZzwZ7xr+z+2pi5cxeIIygHKSEpK1uLEAOWcl4bidvrnSkSJSSJCUZSZZIT+UKoagBVKWFRqGM7viVzFDKhkpKU0UqpD2GYhJvo73h8aVNqUGc06aqxcZo02xFnEIUsCyjwarsAeQ+ESYxHdgFVHIA5k2HjEfZyeoAI7yWCFDIhdAVK9oKLOhRAIBOquEVu0+1MypkvKQSQkSpwYBZA3krFUKSWrY3SS5j06GPfC13PLrdnxdT4dEOw+JSsPY7rg3BU7JI40MTmUeEBVSpyMQjOsBAAWZmbNnZKUksCCq4ASB94841mzpyJ6SpAU1Lji9jrYiN6GMz3UtzKv2fl1g9P4BeSF3cHTg+UL7Jyjo4yOfukuoE7owu6MO2tPBlpVLOaWpWRSkEZkklkqHRXvEd2FOSQJSlZpgzFxUKAJ3gdU6OWduYfLvUc2U07lK17jRJPCHCSeEGBhYlThYvjiWDYCWjKMyiEjiYyS8cEznWn2FEhbhyAplDizqolnqRZm1/asywlMhUxMuZMO6VuEAVqo2Z6WN9LxjV4/wCzzlZGWl1KSo/xEl3ZSVPUg1c1BBjgxddu1uR6GDwkY3vrc1HZ6YuetZKQlIsnMlShVqgFxUKuK0trX27iFJnSwggpCgDlrVjfTjfgYJbP7SJRh0hMpJWQlkJCyCorVnJUMxACSipq5N7RlO0shf2nMQxBGbKsFSN5QZVN4EDM9aEViJ4pyp2TuzSng4KpfLY1e3MLImykleI7sM4ZykktyBPtUZnFYAYwTkqyyimb3Sd1aXUAzd4pG74E1IdhBDs6rv8APLEozVAIS6puTcstb5ncLKDQNSwoxDbGD7iWETEqmlUxMtQmjKcqgZiFirpdWUKs5GlBEOq6nxbFwoqCy2uAdlbSWmaFTVBICgJu+M5LZE7o0SKm5JHItqdm7VlTiw3QSAjMwKySobouRumvyilisEmbJOMmpw7qWkupM0JGdnQUoO8rKyg5dlKaoYU5e1u5UqanKuYxTKQZayQ53ykKJUnecMFVYAgNDhXlT0b0JqYaMtUtTYfZYix8xMmWZigSAwYBySSwAAuSYsYXbUlaAveJITuoSpZzKAICcordusXdsYBC5ZlLmCWVWUWcFO84B4M76R0uvdaMxjh1fUxm2dopKELnS0pQwzJJSpWd6UCgp0n0U7UjK7Z2sFTFiVIlIzJyApBBCUqGVSFPvElqlILJbUwUxPZ6bPnTSqcqaiT7a2G8m0vKUFRWWINnq1KGH4vsnMw6FLnqqmWVo/4agAhhUPmqyqDU61jjqVJyO6nTUSv2a2giQmYgpVMz2SqYwG6wdIAze0zGhaAm3w+ZTEud4l3/AFqk1i3tLZXdTFIUWdShUssJSlSkEgCyhlsL0drjNqzCFKRLW6Qo5S90BLJJoHPuq0ceV7m9lcE4ZC1KAQHLPpp1g1iFS2zTWK2YFBJowuCBXh1NoCmUKEFi2j1MRqWS1zoOXTyi7XKaTDMxWUNmOUsoE3L3ccQRFCeo3J1BBB62BNOmkOvlJ3UmwfNQcevOIloBBDMbmvuilsKKsxsouXL1LO1oZMGUgg8w0PSCLUI+qcdYYx3vNq8+HKDkWgrhdqpQkJyS5nNYBUH0Jbx8YUUsPjFpSyVFI4At+8KBXIcEdkJKQpcpRagVvMd42IYOHHFoJyloMlSSlCVsNxQZyAoHXMC1RQAsz6QKlYpQByqOXQXNwR6h4sTFpWc4GVQAAAchmqXvm+m4ZKTRbSLeE2kqSO7SxGofd9lgqlCK87cxF7s5lYlSFNvewpT5iKFRd8rajWA2z8PnWygHIoCSlnIZQZvL0g5sTZS86pXthKnUUgglI0Ukixu36RlUmo3HluX8fs92VIw07uw4U47xBBqSQKy2VcAl6GjGI8FhmyTMiZc1DMkzSotmBpmUXzAKBALVIIjU4vaExMlcqVh3YZQS5KBlNQReitXq9Qb5manIylEsVDdckHf3qliBUdC+lud4l2WQqNJL5gVitmqRNCSCUOtYY1CR7QNA1w7aEdDveyW0D9jZUtYWnMEBVEUS4BWwCQS9KsA9ICT8alAEwEkjMO8LLD0N6EJZqXDJEWl49eIkhAICaEJSEpIpVR/E7nq3WKo4yUNbCqUFPQ0e2dqy5LKGWYj7xQtJUkanLejoPQk6RXwu2EElSzklqdKa6hQBJNCCQoEUsDc0jN7TBkylnIFhYAoWmJU4qPxoILKSUg+yQaBspjcXMSo0yCoIBUFAHR2Dg3847oYyc7NHNLDKLsHdp4pCADhVqUc8zOpUsPUpIBIoqn/imgaCHZwqlWVhQStSMxeocHM4UMqXISwAN3G6TGJw6wQk52VnJY58uUVADWDuTewh8zFEWWSARldO8SS5U4oC4tE55Zrl8JWsexYOahe6lQWoB1ZQQLs/5XuATURFtXaIkKShkla0ugKUA5CgCkvZwaHrwjzTZ+JnhbpmZMoYAZ2NKhhdTNZ3cRa2tt+aopmqmupJKUoKGo29mBFUl2yqGgu0bd6bVuZl3ezLfa3FTjMKQ0xkpKVAd3MyKSFJzpsW8iS4oWijsLZsxQKVd3KQplla0ukbwluooTmTWZY0dnoxAUY+apXeKWSwALq0Hspro7WsIvHaJyFRZPeJYEO4IJJJHM+EYuUr3NYxsrBFeKXKSpaZiVCWUDvEqKWzPRAOVSgClmAvUamB+PyuFBWfvQFqKc1VqqsKKhU1L3q/CAq0rmElSq89S1fGCM0JzZUBRAqpKQ4JvRT2Ya8A0TZIvLcuYLbS0rBlgJDhmYVTrwzDQ1IoRVom2htGaTnmB2olS95iAkkJUbUUk6XdqxQQUulLEAGpNCGd+pvwixjZ6FBZSgEAHeapJGUEkh3Hk4tBfkGRbl2TtNcyWXWruwpAylRrlSMrJf7thwdNRHcFtpSVqAUc6nSCkAZklgpJL5Wpw1Jqaips7CSiMuZ6OSS3gl6X1eIcqQTlVej2UK3JJ+iYm+6DKjVycfNlgzELeWgDKkkkIVmSVABsoqwfw1gevbipgzKSJgCCpBcjIUpCd4guQ7OKVLi8CJUgypRRmJSoEqAA+77NKsHAL8tIgx0+QciVqmrASrM2UMpXsFIZqVDauags6itROIYPa+ahKxJXMSo1Q6xMQiWpJC0JceySUtmqMoBgRi56u6Tnm515glKSXAls7pcboCww1ubRDhcOnvQQrKk0Up3ICklmTcqYWDuWiqhRJyJZQBLKcgl6Cj8Q4/mq+nTmfMlQSDOO2gmaUpD5UqUd7LR0gKs5qQ4CS2jUBNfET5UwnPRSw27qxIcAOU25wMMxQJQskgOAkO4YuWOjVLRXmSVrU6ApxV33qN62jOWu7KSLeJwcsZiGypcAl3Ua2HECr8xAwp4GGmWpRJLk3JPXXxh6UkByIa0LsSykBlPfTmXFPrhFqU1HSCVOOBfQ+nk8Uw5tEyQqofTzA3vD2fdFpk2HyZSSoBVN4bzHUgMT56RImalAyiYD7WYALcuK1KevpeF9gmKknEZT3YWEkvTMyXelzmTzoYl2VhHE2aEpVkZsyk0Lg0Q+ZTsRSwJ4QDKU2WXqHtYjh9eDQon/AMRUmjE2u4alRTR3hQtRXfQZjcDMQsOXKgFAo3kkEaEG1PSCGCOHUGKDnfMTmYMBYuzOXc8tbAlhtmyzKSUTQlYJUn2gSBlZqVUC3AajWKp2cZwWqe5UKImZwAoJG6HtWtS2nOOHiKSs3/XoaWKc8pE3PLKMuUMhK3YBwQ+W4yg1ra7xqU9pylKAo5mLpLggioCaG1GJbhwjHTEGWVpSlSWJK0nKtmA+8BVwSXtqOMVBOemh9GipUYzSuNO2x6dg9rSMSkgnu3dpaDlLgO4y+0aWbhS0A9n43MiahSirMHSFBxMZQAUkNdyfKA2yJ6Zc9C05S5zJzHdBFauPBqPxgptHEYcJM+UpIJUEqQhO4oktugEgE5Sq1RzaOdUFB2S0Zd7oHqxa5aCSkZSS6cuQoWNKCpYE05xBsvHKM3KCyVLAAc2Kr1NoJ4vBze5SkylJICUvlGVRJLF0vZIfNvGtrMMOz5iZxlg51UIKUkhl0ctUa+RPXaORp7EO5r0KKnloZlpVVlEocNkIbRgAeVIzO0MGSVITLWVAMS2UXASwqGLW5X0F5OKVLSkd4BNSk0WFVQVDKwYijFqh60NQTKcfkLg7iwCSEHMhbjMKhkuGOUgAu4eME5U3oi2lLc89WSN0pZvA1FfTSOz8SGyh2pwcMaMRb941m2MHh86ZqmWCHKEZkzZi3dWfRKWq43i9qRNh8Ts4BShJQz5cpSVKLpH3lE5b6NeOh4nRNRbJUfEz2zcQpLlJZmVvOQWbhSjtbWKJUVK3iXJ9dT15x3HrQlTynCDYEuUk+0P3qzRWTM5x0x6mT1YTmz5aUgIQ9ncEhxqOD8IoGZXMbaM/HQwu+IFh1PDWl/ow01YtSmn1XlDUbDRN35ykt6c7346mIZM8gk6k356vzrDhJctbw16ROrDpYhyK395v9AwtBXJUbQKUqZTlbODysXOv11sYeaN4LZI0LEs5FbuSzt7jFJUhJFCS1rWfV/nwhKwrAEcySTXTQaXg0C5Itaw7aBndqWA8ollYYKBIWCQ5UG0Jr46xSm531NKtxtpaHYRKqGrBV2caAggfVYbHcKYrDFG+sJZZocwtlpug7tCWBgJPUPf6u0Xcfj1KTkLBDhqJcZXYAl1ADMaUvV9B9wQA9OHOBInmTonsMozFyLEtc0byL8jDJ1wBTUs1KDhzi3h8AVrTLQq5qTYDpxfMGesVu9VLUCpILK82LM+tRpDuAY2PshE0v3mUgKDLBSkjKWUD0Iu3jD8XKRIRuh5iFKClAGoUQA6XYMMwiSTtyWpCSZIZKsyzRzmoRRmDiiefKJNozE4hSyglMzMwBF+IJNlMRUlg1Ywblm12LsrABOIDnMC5D5ueoiPHISKJFKagvQOeVXppBTFyEoRkmDMoKJAQQVIrvBRdi7Cg1fpAMrUSXDnV3f11jSLuTax0n3Q6uQqD0UEvXUKPwh8uSXsGNOvCO7QSymHskJJazgH5nz4RaetgRNI2me67lJYEhV6FYo7eXkIi+2KMxNcoUQ4FAf5mv4xWlzUhyBUNlJqXBHgzPpE6XUEsmrmnlbzihtEc2aAbM4dn489aawoimgknKCfAmFAOyC+E2igSFF1d6FMnKphlcEAg1KQX821eDu0pSZqM/eBLIKpkslWULGhYsQ4YAjMbuWjH4bDpZRUSlINSwJ5BnHmIkk4VaiphugFQ0SrJrzPKOeVNN3THodlYoFBllP3jvVcOAGPJwIqFJSQ4tzv0PlBHFbFxAynuphBNGDu5P4fCvMconHZPFED+EQS7B3Jo4AApW37RWeC5oLA9c0ZWBOrcD+tPWO7Nn5VpOZq1JDsDQkUNQCSKGLE3YGIS5MpRYta9qjziZPZXEg1QBRx/El10YAKJd6RLqU0tZINjTnaveASpcxExw4SMymFyS/3t2iakDi8d2XMTPAKBMlDOCmYkuA1DLVxTVBHtNrR4q7L7JLQM3fpQSQ5BAahZv8zV9DBH/BkyznViCkZSwkAkJIIJbdcopyZlVjglOinaL/kq7Hy9iCdVapaZbJSnI6l3CmGZsqa0or2jVokxey5KUhivMlJUhWQlRAIJegEy9Eq3mszR3JKRNMxWIT/EBBSBMCcxIBUgsWDAgqBqeEWcMqcFpCsRKWhKSlQUAFAuWOUiqd5wzMzUeFxH19/2UsrM12inJQoTUTD/ABEsycid5PtKWBcE1BF7PWMviMQFKsGANB5+TkxoMZ2Rmk50KlKlF8qu8ASA5oxJUEjxvcwMxnZufKzEpC0pAKlS95LHUFqh+FmOjP20p00rZiGnvYHTFg0YDp89Ygkm8EZGy562KZSykg5TloQA5Lm4bWLUrs3iFFP8BYBIDmjEsK3IFbtG2eK5k2YMUXPlTnyaCxBloKGotixq1GNxTNf+nhE6ux2KruIYZWOcMoKIAKGuK3hYvsviUKQAjM4oXZmYMrMwTQgtwfgWh1qctMyFZlFGUZqHVj1Oo8IYlOcQYndj8UFgFIKcwGcLRlGZq3cN58olHZiekslKJlSGTMTmBGjFi5uBwhcan9QOnLoAlTO7TlABe5Z6uG+usS4JBNFqIrRJpc6k2FBWL0zYmJKO87hYSWruvVTB0vmFSLij1inO2NiyM3czCHIDJzFwz+zW3uPOK4kHzXmGV9AnipMuicgGu6SCkt7NTU89XgRNyoKjmCgxo1iWsNa8ImTsbFO/czCSCzpUKjQE0NA/SK42PPUrL3S3CfwkuAPukUU+gBqYIuK/UGVg+at68vpom2bMTm3nYsGq7E1tFxXZjGUPcLSC9VMkBrk5iMo5mkVsRs2dIUy5bkpBpvNmdiSl+B8jwi+JCWia8wyuxpNl4xOYITLzOHZbAslRNXoKB31Y2ifbO10zJSkJFHSFbgzKHsKKVfi4GtDGaAxCgGlK3cozZSWZ6V1LW1bwhYtE9LEy1oepKUqYgBwSqxoDXRjGeRNjKqpzZkOcpYHiyTQUpEuGxi0ElClJILOFEKbwvFaWkrVuJUosTQEnrS9YubH2FiMU/dooASFF0pUoXQFGmb6LRpJpLUEmRDGlRoA9jwLF3hipRpoCPp41WyeyKEkfa5ikk3TKILakKWd0K0ygk0PKDmD7PbNWCAqcomm8pOaouAwDtWnrHPLEwT0u/sacJs87Kymh9Lv+kRrWWZip9fq8emL7K4ArTLeYFMcwzliBrnUm9RytEC+x2EQCozFZcjEKLlCsxDgyzVTMwfjSzT32ntr5CdJo8wWDmreLQWQlKq5SrUEBwagHVqeYj0AYjZ8qWhAkJmZSGnLQEk5XIJUlsygA9RvWYwRkdoZczJuIly0pU6kpQpAIHspKjSjFwBQsdIvjz5Q08RWXU8zEqcveRLmKB1ShRFKMGpHY9JG0pKN2XhQlI0SmYgPeySRrf9zyDvEvpHlXUw8nESsneLJUoHKZYdLuFHMFVsQ7Ny1oVmbWT3SU4eauUU5nTMBO7dgtFAPeWqaxjpa6FNK2Ooau7wf4ROmbRi1Dpy15xUqSbuZ7GiVt9QyEKcqcGWVpITcAVNyGqeAtFOd2hLBKSUpfMQGLHUDVPnAVQq3w+cIDTTlDVOHQLmmw/alT5AshJAD6jVlPcaGlW4Q3F7fUO8yYgpJUFAJS4q7lKmoq1mFVcYzJSOtYdnLuQz8BCdGHQGzQTts4ibKUtRC0g7xJGdJO6N1xd9AWvpFHB7SISuWRRQdy5qmxYWoVB7l60iilI4jmeHX1hMK3cPUa1gVOKVkibhVW0hqoqcggrAKXykEkABjVweI6GKa8Qo5sq1b2hN62Knp+giAosltPjTxeOpkqJAZ+Da6+MUopDCI2wtbJVRtRqzkCpFdHfXWNPsZG0cQO+QUy0kbomqyvcukCr1NWSC4vGPk4Gaf+TMUNRkWKa1anX0g0NuKlulQEpT0RlAABGgOppVmpbhzYi7VqVr+OvoUpNBvbU7GYc55yR3WZpipaytIJfdWkeyrg7MTcwzbGIxmWaoyFCSEhaVhLAAJBLlwVJuH1EXNhbamzSEqT3gWyS49pOW1QcwZLdYtYbbGIRKGGm7OmrlJzy1KSa93mUlICVDeZLCpEY4ZO7jVik105milmPO5u0JpYupq5anKHvl4N8OUEldoZxSEBZUwDuoEHicpBBq13F7RYn9lp2QplycYVXCVypYTRtRMJB5geEUk9lscCf90ml/yx2Ph87GXxIhVtOZmNS/V02onLYAP4RKnbOICXExWVy4BypuDUJYCsXsJ2XxRWBMkTpaS7rEnNVnFMwuaO9Hh+0ey+IlLyJkzpqSApX8HKkKc0DKWlVC7gm/KHeFuXoClIpSe0+JSonvS5S1RmoC4AJiP/AGjxAUFFZNQSGo6aCgbS/HrHJvZzF3GGnA/yEDw4QlbGxSqrkTQKlSggGlasCA8So0fD0KUpF0dqsQSTLclw4CSwCTu0BNecTr7XT1Eg2J9glhZiQCxILCnHxhuyZJw4U8nEKUT/ANNIcaBs5/NA7bmGnLnGamTNysAn+GpwBoaXzOacYbpUeiHeVrjsD2hnpK0knKrK+YauKVCmdiLEdHMdPabEJIQFlASaJOXQ1zNerfTmKGE2fMdf+7zlK+6WKQm5dlJrpRxrDsRsTEl1GUrj91/J3MGWlfW3oCU3smanDT8SVlZXKSjMUvMJSSXCXShAKqm2YB/GL+SalRCVoVKIchKkkm+8hCgB7OVNAeFKxh/tU5Jp3gUyRZeYsCAPf5wT2SiZMUlakrRkIFElLprS2tfWMZ0mtdPI0WZ8gnO28l+8TJSlAB5OASCGYBz+HiPGAkjtFNKlqzMXISGFAoGzNUcuINxFvbkpSsNMOUoaaVpQrdWA5JYfeuSWtWMiiYw1qCD9dI1p04tbCqXiy+ccsOl3CjmY1c8TpE2zdoqQSE5QtQICzZJVzALE8dOLPA9MvdDmlfMfQh05ZJAJ6Ubgfoxs4pqxjfU0GB2pM3UpmLOU5jpQEUBUolV/ZGvGHbU26tYJKiEqzAJBCjlNMpckgOOAeAZFCVAFz4VuRpq3nDVp0ejH9NIz4cb3sO7tYimrc+H14RdkY5ctACFqTm9pjQlwwIZy3i2l4Ht6wpSSaCrOW4cS/lGz2JsTzMdMJrMNKX9IUQq5lvA/OFBYdzVSuxS/+qn+j/2h47FqB/4wp/8AV/7RqO/N/iB8IX2w8o+feMxD5+i/AGcl9jFB2niob/hD4qjquxT3n3ayALeMaIYosbCGpmKVQV6D5xHe8R9XovwFgEjsckf89X9KfjDh2Pk6zph8UCnkYOowyjRwCdKv9Ui2nZ51T5sfcIaxGIlopPyRUablsjOyuyuDFCFL/mWr/wDLQVwvZ3Ci0lFabzq/8iTBQYI6JHkB7h8YsIwSyb1PD9LxapYmp802v3N44d/qKcrZUlHsy5SeiEJPuf0i7LlJaw6B/e/ygphezawAZqhLBs9VEckirc4sd9Ik0lozqH3lMfT2U+sdVHszM9bv7kVa2GoK82VsDs7NXu9z8ROUeBU7+AMXO5kp07w6BmHnQkf09Ir4vFTCM01WUNRNlEFuNhA6ZjTVKRlTwFz1Ose3Q7MjFXaPn8X/AKhy/DSXv39gJ2l2T3s9SwhDED2Qkmg1J1gSNgAXSvwBPuMahcx4aZ9Gj1Y0oJWsfPS7Qrybbe5l/wDCwPvzE+nvMIYFrTpvn+saR+NoQlSxZAHgIrhQ6FrH1VzZml4Im8+Yepf4w5OHWAwxE4cgT840yCgH2R5R2aZZPsDyEHBh0D/ca3j6GZMqb/3M7zP90N7qb/3M7zV/dGlSiX+AeQiObJTdIboAIXBh0LXaVXq/QzhkTTafO8DM/uiTCTp8paVonLUpJsozGPEKGesHUhQuIgxWHC+R4xLoQ6Gke0at9WHNn9sJSmTiZQlq45QpB6UpGhl4PDzU5kplqB1SB8I8yYpdKw451iXCLXLOaRMKD+F6HqP3jiq4CEvlPXods1IaVNV19+/E3+K7Oy1Dd3T4keTwLxPZ6akU308AfgecU9n9tVJITiUEfnTr8Cfpo1WC2pLmh5awvkDUdQfjHkV+zYreNvse3QxtGt8r18v/AH1MVicEtL5klI5g8Iz2J7MyFkqYgl95J11u41j14zQbjz+UUMXsmUv7uU/lJHuMcTwlSH/XNnTKGbS55BP7Ifgm+C0P6pPwgXO7Kz0uyUzOaVVbopo9bxPZk/cU97sfrzgVP2ZPR90npE8XF099ffhYxdBrY8pxEuajcWFoTzBA/X9oqO4y+Lks3GmsepzpzbsxJHJST8dKxRxGzMMv2pKQT+F0l/8AK0XHtFr54eRm4tHnSrVvpweHYJDAqIFwH4eGo/SNrP7KYdXsqWk/zOPWvrFFXZBQrLxAs1QU3o1Cbx0Rx9FrV2+6FqZfHAd4rKks9LmmnpCg8rsfiXopBHJTQo1WLoW+dDNIlWr8Wvx5xNh2UAK5uAvT3wVwexZaWNSfEXobN6vBSXhQP0jzFhWzqjhvqYFTgFGwYfmFfDhF2Ts0BiXV1s3SvvgoiQIIYPY0yZ7KSBxNP28WEbwwkVyuaqFOAKlSstgEjlFrD4NcwshKldB8YPy9nSJXtnvFcA2XxNm84gxG2idyUKMKIoMpLVUfa6O0d1PDPY5q+Op01uRy9ioRWdMD/gRVXidPSEdqIQ6ZCACHqC5ccZhoNLVrA9UtSiAo5jQ5U2pmqeNCHeLaZCUUUxOiU+wG46qppakelSwaW583iu25Suqfv37RAETJuYqUya5jUJvqbqLNSpiAqCQCgOrVRA/0ire+LeIzKuaAdPADhSwiupAAp9eMd0IRifPYjEVKju378OhQmoUSSQ5MRKkH6aCPd/Dj7o6iXxY+Y9Rp841uciTBSpB4Qvs54QSMtvrpwMd7n618eEO4fEC/s5e0I4Y8IKBAt10HwjiZTXf698F0HxAwYYxwYc8IKiU9vQed44mXVvcYLofxAz7KprR0YdXCCKpfARzL4jp+kFybvmUPs54Qvs51EEAgVLev0YfwPPx9LfpBcaBM/ABQZSaeR8IGzdhrf+GX5Kv5j5RqlSr3poTy0+rw1UqtveSOf1yhXTNYVKkNmY2alaN2ag15O/wMRIw7HNJWUKvQlvmmNtPwgIKVgEGun08Z3aOxVIOaU5HD7w8NR6xLSZ10637P0JMD2tnSmTiEZh+Lj0UKHxrGp2dtmROG4sBX4VUP6+pMYOXiNFAMeVPEGGzdmpNZash4O6D8RHHVwkZao9bD9q1aLtJ6eOq/K9T0xdOTfVRoYZ3vj1r6xg8Lt+fhwBMJUBopykAqbdWC6dKBrxqtkdskTEhImmUeCmKfAtQcm8Y8+eGktj3qHalGolm0/jz/ADYILloNwPhAuf2ew6lOxSTwNPIuILzVlTKJBexASxP+Wij0JMRClGb3eIjllBPdHpqSauZ/EdkUH2JpB5hJ8wwfzEVV9lZgtNHilvUExqs3P1+EcEw9R9UaMnh6b5Bli+Rj1dnp4sZZ8VD4Qo1ylngPrwjkR3Sn0Fkh0KEmWpTABRPACvugnhNiqUMxLJo5cMOqreWbpFNWIJoHCfwhgnxpXqXMGJO2kEJExLhIYUBD8WcVjrilzFOUrfCTy5ciS2UZ1O2YuEg/zX8mBEUsTtZa3SgPlPsDdS3TWrxWTkWGmLcOGASugAtZvjziabiQPZIA1LKf1FfOO2nCnzaPDxVfE2+GEn+39fkiXJ3nmKJZRUlKaaWYGv1WJcPhcwq0tAAYJZyfoxPJ7oNvhR1BJZ+Yavj5RZRipaid4E6x1RqU4/KzyZ4XFVXepF+T9f8ABAhASGSCByoT1OsVylwzfXx+uUW1ThrQGjuG4cfGOSgn8SR0I6Xv+8XxY9TB4Kq7LK/J/gqfZnFU/wDkfo0h5wwLXe/lFzuJf4nb82nzhqpSR94cQygHPnS0Lix6h3Gov0A2ZIDBm8y0NTJDXJJbWlSeVrxcnyyQcochtQQ5ocp4uff4pKDuUFw4BNA3uf8AfSNVO6OWWGcZWasQfZX0S1dPPSvwjhwwAqdOQ8+PjF3KQ+ZqM7OLjieAeErDE6kuDclud9KvCzlvDroCpsuzW6150jg4kObDnw6fpFufKBFBQEaKej0d3ILeetYZLRWp4ueNWqdBcs3CNM2hyulaRVSlvZPrzPl72hZGALX1rUgPboQa8ovKk0OUCwBNHD04cB7hrDEySS+WlDSl7E8216wZgdHkVDLctyHNuHhUecdPEgWPLi9OkW2Dm7ceYTQ1vYf0+cRlB3DgkXYOKObeB8vB5hOjbYr5A2nHVxbiecPMosGsRUt9WiyJIoyWNX6WNCGFz6nnHTKcs9tWo99BfQ2vCzBwdCAS1Dp0p5nhCCRRg/8AmLgeHIcmi4mWkVBLVSKF9GZrlujw1cq7kkWU1S5YAHUNWFmNOC1sVghhXdtxNtf2hTEOoZg7gsWZzf510i0ZJJ6AMyXH5hz6cvJww7Gqb5Q3O1GdnqT1icyKVKT+xntp7FEwBSQymoWYL6nlUfTRmJspcpTEEdXY9OMekDDKa7M5di1qM1qvUWNLGKeO2YFjIpLJFXYuBoxa9aiKU0PJOO60MTJxQVuqA6GoMVsTsdCqyzkVWmhf3QU2r2emSyMqVLBDukEtypFGVhZ6f+VMI/lV8oJOL3NI0qid6d0U8PtXFYUsXAIq28gjUHjpQxp9mdspS2E0ZfzJqnh7Lhg+iSkcjFOXImqDGTMbgUKb3RSxXZUqLy0qQWsGblHNUpQfNM7sNia9N6Jx+ybXkbmWUTBmlrzDkSr+oBleaco/FEa0BgXDGxeh/lU7EdIwWE2NjkKGWWQxoQpI1oakRv8AZwmmUO+Ke/feKXqlqBdGWrmQR1jzqtOK1TPpMJiqtR5akLePL1/yRCYjij0hRIu9UHwKg/PdzD3dBCjKx3XBuY8SPD9IcBq58v0iNI5n0+US5uJNOR+EIZMH4mJQou715tFa+p8CR7jEqEDmObl4Bkq8Sshgryhvfrahp0hqkgeyT6H4RHMcwARrmKH7QkTSaPCEhWpPp8oQlmv6Q7isSqxhFB8XjgxJIajc0mI+78eXwixJluz60FvAXguFjQdlcOVErPsotS6j8G94hAZt7ztwPgLmNFgMGJUtKRcCvMm/rAlcsJOXyu/6R3YfS54faizOL5akISDV3uQ5pfQQigEc7cImIAakc8BHQeXlKqpN7acdIjGHNnFTo784uKQ8dCIq5i6SbKqpJtWnGvm+rQ1Up3fnw11eLhENVLguDpIqpwwAAaoDPZ/1hisOHtRm0NGPxi8iWR0jqkwZmHBTQP7omgLNYVUHOp4RJLkqAqp+FjpdmcGsW0oPPyh6wNRA5FRo21K0iUzVOvEnhWGT1JQymBSFVFHrTd57zxcSAWYuPL314xU2xLdOXWhA6RDdzWMcqTXKxXxEwoVlNbEK/Ek2Pj84iVtJtLdfcIlww72Xk++lyjmPvI9HEC1IerVs9PIl48yWjPqqU1OCkEE49N/k3rrHZs9HB/CKBwpNcr9PnDUy1BwXbma05vXrEmhdSpDOEjnQAnzHxhypwIoinh484oCnHzPziRKmdter+PEQhljvuT9T9PEMwP8AdbgQ7jyiMTfX64w37QRo448Oob1EAyZOKDMQx6msMXlI1HPMffDFrceyDqK+4iIwku5Dj1/X6vABMSr8T+RjsRXsff8AOFAIFJmJ0I9IlQoGtIi7zgD5H5RKkCABxUDYJ9I5lSbAdQ0NLcITJ4DyEACI/Mrwyt7okkySS7qbw+UVu7SbAeQh2UAMAB4CAZYmjg/n8oimDgSD7v3hhAaweOBTCx8xABLLLsHPn6Q/xPnFFM4imQ+BSfjDziCB7Jra1+FIBGgkdop6RlEx0j8Qf1v6w1W35ruRLf8AlPzgDLnZRr4g+MLvQah/IxSnJbMiVKE/mSYbV2jmA17vyP8AdDk9o5nCX5H+6AJnvUgufyq+UcTNHP8ApUPhD4s+pHdqP0ryD/8AtFN/DL8lf3Q5PaCZXdl+SuAP4ucZ2Wqgu5rY6w5xyHUND4s+ou60fpRpBtqaR7Ev/V7s0So2rM1SjSwVwfUxmkEUoL/AxMueGqK6U6wcafUO6UfpQdmbYmD7iP8AV84Uvbi/wouR97QtxgBMmPoG6RGogB2FGLt9aEwcafUO6UfpRo1bamCuRH+r5xz/AB2ZYpQOua/nAAkgNpyjqS4pfTqLfXCFxZ9RrC0fpQeG25n4UeSv7ojnbQK2JSmjM2ZqFw29ZxAYTSUuwL8yPhDUzF2ISR/MoH0EPiz6ieEoveKC0vaKkrLZUkuxHqzksYjV1NefygdOJUGYci5LHQ2rz5Q+TiFG4A4gEmvkIzbNoxUdEi8JqrFauR3a8Q2hHl7g9Mzmv/T+8DVkmnkeB0+vnEqVq1brAUXUA6FTcDlcH5e7pZxlHQk8t30pFHOptPWOycQSKHw4dYALM1AGpc6blfkffEakJ1B8kwxU06gV8jyiFK8r8OOo68Rz/eAB6Qx1I4slx6V6/vEoy/QT8oaIYqWRUUPoevz98AhykJ0PoPlHIYZiPvAA8x7uIjsAXKWY0YDxeHBR4D1hQoBjQpXBPmflHCo1YDzI+EKFDEdSs2YeZ+Udzk6Dz/SFCiShqVnh6x3vCaFBHiPnChQCOJOscepJo3v4+XxhQoYDufjDQhq/Et5RyFCGdMMWaHy8y0KFAIUIX8eJ4CFChgNXo3Hm1jDi5uB5n5QoUAEBKx+EjxHzf0ieW9qEVpXXgdIUKENEiVngOrm/RoaFqcOAxLOC7eDQoUFwJEgpdmYknWj361c+MPc8vWOwoAOd4XKaWfw+hDZyineen3qacb6fOFCgAmIPG/L9YSJjHKTXQtcQoUAEh6xBPlq9pJKVf5d4cC7h+ekKFAA6QSoA94uo4I/tiVUon75HCif7YUKGIj+z5fzcXAfqGAh6JSWcCh6woUAEKsKDUEjxMKFCgEf/2Q=="
+                      alt="amenities"
+                      class="img-fluid"
+                    />
+                    <h5 class="pt-3 text-white">SWIMMING POOL
+                    </h5>
+                  </div>
+              
+                  <div class="element element-14">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrxr8ipbuhUSBky50AKKd3Gs8tpzgj1GcJCA&s"
+                      alt="amenities"
+                      class="img-fluid"
+                    />
+                    <h5 class="pt-3 text-white">FRUITS PLANTATION FOR EACH PLOT
+                    </h5>
+                  </div>
+               
+                  <div class="element element-17">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfjKqEj2Ly6vYHelIZnN-ZdphWgtiQJKm97w&s"
+                      alt="amenities"
+                      class="img-fluid"
+                    />
+                    <h5 class="pt-3 text-white">CLUB HOUSE FACILITIES PROVIDED
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<section id="location">
+    <section id="connectivity" style="margin-top: 2rem;">
+        <div class="container">
+          <h2 class="text-left color-imp">
+            Location 
+            <br>
+            
+          </h2>
+          <!-- Body content -->
+          <div class="row pt-30 mb-5">
+            <div class="col-xl-7 col-lg-7 col-sm-12 text-dark amenities-info">
+              <div class="accordion accordion-flush">
+                <div class="accordion-item accordion-data">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#connectivity1"
+                    >
+                      <i class="fa fa-road"></i>&nbsp; Bren Raceway - FIA Grade 2 race track - 4km
+
+                    </button>
+                  </h2>
+              
+                </div>
+                <div class="accordion-item accordion-data">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#metro-stations"
+                    >
+                      <i class="fa fa-subway"></i>&nbsp; Express Highway Dobbaspet to Hoskote - 4km
+
+                    </button>
+                  </h2>
+                 
+                </div>
+                <div class="accordion-item accordion-data">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#peenya-station"
+                    >
+                      <i class="fa fa-subway"></i>&nbsp; Manipal Hospital Doddaballapura - 12km
+
+                    </button>
+                  </h2>
+               
+                </div>
+                <div class="accordion-item accordion-data">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#peenya-station"
+                    >
+                      <i class="fa fa-school"></i>&nbsp; KWIN City - 15km
+
+                    </button>
+                  </h2>
+               
+                </div>
+                <div class="accordion-item accordion-data">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#podar-school"
+                    >
+                      <i class="fa fa-school"></i>&nbsp; Doddaballapura city - 8km
+
+                    </button>
+                  </h2>
+            
+                </div>
+                <div class="accordion-item accordion-data">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#lexicon-school"
+                    >
+                      <i class="fa fa-school"></i>&nbsp;  ⁠Rajanukunte - 15km
+
+                    </button>
+                  </h2>
+              
+                </div>
+                <div class="accordion-item accordion-data">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#lexicon-school"
+                    >
+                      <i class="fa fa-school"></i>&nbsp;  ⁠Getham school of technology & getham Univercity - 18km
+
+                    </button>
+                  </h2>
+              
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-5 col-lg-5 col-sm-11 text-dark mt-3 amenities-img">
+            <!-- location -->
+            <img
+  src="./assets/images/connectivity/Connectivity.webp"
+  class="img-fluid data-id-btn"
+  style="cursor: pointer"
+  alt="Connectivity Map"
+  data-bs-toggle="modal"
+  data-bs-target="#exampleModal"
+/>
+
+              <!-- <img
+              src="./assets/images/connectivity/Connectivity.webp"
+                class="img-fluid data-id-btn"
+                style="cursor: pointer"
+                alt="Connectivity Map"
+                data-bs-target="#enquire-modal"
+                data-bs-toggle="modal"
+                data-bs-whatever="Enquire Now"
+                data-id="Request Location"
+              /> -->
+            </div>
+          </div>
+        
+        </div>
+      </section>
+    </section>
+
+    <section id="contact">
+      <div class="container-fluid full-width"></div>
+      <div class="container">
+          <div class="contact-inner">
+              <div class="container contact-data">
+                  <div class="row">
+                      <div class="col-lx-6 col-lg-6 col-sm-12 image-carousel1 ps-0 pe-0">
+                          <div class="contact-video" id="vidcontainer">
+                              <!-- <img src="./g1.webp" width="100%" /> -->
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3883.2599210652493!2d77.469521!3d13.271690999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTPCsDE2JzE4LjEiTiA3N8KwMjgnMTAuMyJF!5e0!3m2!1sen!2sin!4v1732281114979!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                              <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.099375248436!2d77.53759339999999!3d13.029343299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3dbd70ab444f%3A0x4862652fadaebfbb!2sGodrej%20Yeshwanthpur!5e0!3m2!1sen!2sin!4v1723454294204!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                          </div>
+                      </div>
+                      <div class="col-lx-6 col-lg-6 col-sm-12 form-data">
+                          <h2 class="text-left ms-3 mt-3" style="font-size: 28px">
+                              Schedule a Site Visit
+                          </h2>
+                          <div class="form">
+                            <form id="main-popup" name="modal-form" action="https://formspree.io/f/xgveyvjv" method="POST">
+  
+                                  <div class="row">
+                                      <div class="col-lg-10 col-sm-12 forms-input-fields">
+                                          <i class="fa-solid fa-user"></i>
+                                          <input type="text" name="name" class="form-control ms-0 me-0" required="" placeholder="Name*">
+                                          <span class="error">Name field is required</span>
+                                      </div>
+                                      <div class="col-lg-10 col-sm-12 forms-input-fields">
+                                          <i class="fa-solid fa-phone"></i>
+                                          <input type="number" name="mobile" id="mobile" class="form-control ms-0 me-0" required="" placeholder="Mobile*">
+                                          <span class="error">Mobile field is required</span>
+                                      </div>
+                                      <div class="col-lg-10 col-sm-12 forms-input-fields">
+                                          <i class="fa-solid fa-calendar-day"></i>
+                                          <input type="date" name="visit_date" class="form-control ms-0 me-0" required="">
+                                          <span class="error">Date field is required</span>
+                                      </div>
+                                      <div class="col-lg-10 col-sm-12 forms-input-fields">
+                                          <i class="fa-solid fa-clock"></i>
+                                          <input type="time" name="visit_time" class="form-control ms-0 me-0" required="">
+                                          <span class="error">Time field is required</span>
+                                      </div>
+                                      <div class="col-lg-10 col-sm-12 forms-input-fields">
+                                          <i class="fa-solid fa-envelope"></i>
+                                          <select name="contact_method" class="form-control ms-0 me-0">
+                                              <option value="" disabled="" selected="">Preferred Method of Contact</option>
+                                              <option value="whatsapp">WhatsApp</option>
+                                              <option value="call">Call</option>
+                                              <option value="both">Both</option>
+                                          </select>
+                                          <span class="error">Contact method is required</span>
+                                      </div>
+                                      <div class="col-lg-10 col-sm-12">
+                                          <p style="font-size: 14px">
+                                              We will contact you only through your selected preference by WhatsApp or call only.
+                                          </p>
+                                      </div>
+                                      <div>
+                                          <input type="hidden" name="form_name" id="form_name3" class="form-control form_name" value="Contact Site Visit">
+                                          <input type="hidden" id="website_url3" class="website_url" name="website_url" value="https://gilded-zuccutto-a13141.netlify.app/">
+                                      </div>
+                                      <button id="schedule-site-visit-button" type="submit" name="submit" class="btn ms-2 custom-btn btn-hover data-id-btn" style="width: auto" data-id="Contact Site Visit" >
+                                         <p style="font-weight: 500;font-size: 1.5rem;">SUBMIT</p> 
+                                      </button>
+                                  </div>
+                              </form>
+                          </div>
+                      </div>
+                      <div class="col-lx-6 col-lg-6 col-sm-12 ps-0 pe-0 image-carousel m-0">
+                          <div class="contact-video">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3883.2599210652493!2d77.469521!3d13.271690999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTPCsDE2JzE4LjEiTiA3N8KwMjgnMTAuMyJF!5e0!3m2!1sen!2sin!4v1732281114979!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                          
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+    <section class="space-10 pt-0">
+      <div class="overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="heading space-10 text-center">
+                <h5>FAQs</h5>
+                <h3 class="py-3">Frequently Asked Questions</h3>
+                <h5>Have questions? We’re here to help!</h5>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item border-0 mb-4">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button border-bottom collapsed fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOne"
+                    >
+                     What is RV Highlight Meadows, and where is it located?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseOne"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        RV Highlight Meadows is a luxury farm plots community designed for those who have achieved success and made their mark in society. It is located in Huskur Village, Doddaballapur Taluk, Bengaluru.
+
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item border-0 mb-4">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button border-bottom collapsed fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseTwo"
+                    >
+                    How large is the RV Highlight Meadows project?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseTwo"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                    <p>It is extent of 10 acres land , this includes 56 premium farm plots
+                    </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item border-0 mb-4">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button border-bottom collapsed fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseThree"
+                    >
+                    What is the significance of RV Highlight Meadows' location?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseThree"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                        <p>
+                            • Nearby Schools & Colleges<br>
+                            • Transportation<br>
+                            • 3 km drive from Bren Raceway-FIA grade 2 race track<br>
+                            • 4 km drive from Express Highway Dabaspet to Hoskote<br>
+                            • 8 km drive from Doddaballapura city<br>
+                            • 10.8 km drive from DC office
+                          </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item border-0 mb-4">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button border-bottom collapsed fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFour"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseFour"
+                    >
+                    Who is the developer behind RV Highlight Meadows?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseFour"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        RV Promoters and Developers Pvt. Ltd.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item border-0 mb-4">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button border-bottom collapsed fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFive"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseFive"
+                    >
+                    How does RV Highlight Meadows contribute to environmental sustainability?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseFive"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        RV Highlight Meadows, where you can live the high life, is nestled amidst green surroundings and a pollution-free environment. It is close enough to make traveling a breeze and far enough to get away from it all.
+
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item border-0 mb-4">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button border-bottom collapsed fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseSix"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseSix"
+                    >
+                    Is RV Highlight Meadows a good investment opportunity?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseSix"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Yes, it is a promising investment due to its proximity to expanding areas and future developments around.
+
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item border-0 mb-4">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button border-bottom collapsed fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseSeven"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseSeven"
+                    >
+                    What is the distance from RV Highlight Meadows to prominent educational institutions?
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseSeven"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                        <p>
+                            • 15 min drive from Gitam School of Technology & University<br>
+                            • 15 min drive from Harrow International School<br>
+                            • 15 min drive from Amity University<br>
+                            • 15 min drive from Gurukul International Residential School
+                          </p>
+                    </div>
+                  </div>
+                </div>
+
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="heading white-heading" style="color: green;">
+      Reviews
+  </div>
+  
+  <section id="testimonials">
+    <!--heading--->
+
+    <!--testimonials-box-container------>
+    <div class="testimonial-box-container">
+        <!--BOX-1-------------->
+     
+        <!-- 5 -->
+        <div class="testimonial-box">
+            <!--top------------------------->
+            <div class="box-top">
+                <!--profile----->
+                <div class="profile">
+                    <!--img---->
+                    <div class="profile-img">
+                        <img src="https://images.unsplash.com/photo-1629301085299-a0b879255825?q=80&w=2535&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                    </div>
+                    <!--name-and-username-->
+                    <div class="name-user">
+                        <strong>Rohit Singh</strong>
+                        <!-- <span>@barryallen</span> -->
+                    </div>
+                </div>
+                <!--reviews------>
+                <div class="reviews">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i><!--Empty star-->
+                </div>
+            </div>
+            <!--Comments---------------------------------------->
+            <div class="client-comment">
+                <p>Waking up to the chirping of birds and stunning views is now a reality for me. This is not just a plot; it’s a lifestyle upgrade!</p>
+
+            </div>
+        </div>
+        <!-- 6 -->
+        <div class="testimonial-box">
+            <!--top------------------------->
+            <div class="box-top">
+                <!--profile----->
+                <div class="profile">
+                    <!--img---->
+                    <div class="profile-img">
+                        <img src="https://images.unsplash.com/photo-1706943262473-fc393f495501?q=80&w=2686&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                    </div>
+                    <!--name-and-username-->
+                    <div class="name-user">
+                        <strong>Aarti Mehta</strong>
+                        <!-- <span>@barryallen</span> -->
+                    </div>
+                </div>
+                <!--reviews------>
+                <div class="reviews">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i><!--Empty star-->
+                </div>
+            </div>
+            <!--Comments---------------------------------------->
+            <div class="client-comment">
+                <p>I never thought buying land could be this easy and enjoyable. The team was super supportive, and now I’m the proud owner of a beautiful farm plot!</p>
+
+            </div>
+        </div>
+        <!-- 7 -->
+        
+        <!-- 8 -->
+     
+        <div class="testimonial-box">
+            <!--top------------------------->
+            <div class="box-top">
+                <!--profile----->
+                <div class="profile">
+                    <!--img---->
+                    <div class="profile-img">
+                        <img src="https://images.unsplash.com/photo-1628264047194-fbef620a1262?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                    </div>
+                    <!--name-and-username-->
+                    <div class="name-user">
+                        <strong>Vikram Rao</strong>
+                        <!-- <span>@barryallen</span> -->
+                    </div>
+                </div>
+                <!--reviews------>
+                <div class="reviews">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i><!--Empty star-->
+                </div>
+            </div>
+            <!--Comments---------------------------------------->
+            <div class="client-comment">
+                <p>I fell in love with this project the moment I saw it! The clear skies, open spaces, and natural beauty make it a dream location for me.</p>
+
+            </div>
+        </div>
+        <div class="testimonial-box">
+            <!--top------------------------->
+            <div class="box-top">
+                <!--profile----->
+                <div class="profile">
+                    <!--img---->
+                    <div class="profile-img">
+                        <img src="https://images.unsplash.com/photo-1596309405988-b16d9e2852c7?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1596309405988-b16d9e2852c7?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                    </div>
+                    <!--name-and-username-->
+                    <div class="name-user">
+                        <strong>Rita Verma</strong>
+                        <!-- <span>@barryallen</span> -->
+                    </div>
+                </div>
+                <!--reviews------>
+                <div class="reviews">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i><!--Empty star-->
+                </div>
+            </div>
+            <!--Comments---------------------------------------->
+            <div class="client-comment">
+                <p>Owning land here feels like owning a piece of heaven. The entire experience, from purchase to maintenance, has been seamless and enjoyable!.</p>
+
+            </div>
+        </div>
+    </div>
+  </section>
+   
+
+    <div class="pg-footer">
+      <!-- <footer class="footer"> -->
+        <footer class="footer" id="footer-background">
+      
+        <div class="footer-content">
+          <div class="footer-content-column">
+            <div class="footer-logo">
+              <a class="footer-logo-link" href="#">
+            
+              </a>
+            </div>
+            <div class="footer-menu">
+              <h2 class="footer-menu-name"> Contact Us</h2>
+              <ul id="menu-get-started" class="footer-menu-list">
+                <li class="menu-item menu-item-type-post_type menu-item-object-product">
+                  <a href="mailto:sales@rvhighlightmedows.com" style="color: white; text-decoration: none;">
+                    <i class="fa fa-envelope me-3 custom-icon-color" style="color: #e5bd94;"></i>sales@rvhighlightmedows.com
+                  </a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-product">
+                  <a href="tel:+919035145275" style="color: white; text-decoration: none;">
+                    <i class="fa fa-phone-alt me-3 custom-icon-color" style="color: #e5bd94;"></i>+91 90351 45275
+                  </a>
+                </li>
+              </ul>
+              <div class="social-menu">
+                <ul>
+                    <li><a href="#" ><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="https://www.instagram.com/rv_promoters/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#" ><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="https://m.facebook.com/groups/562214612279237/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#" ><i class="fab fa-twitter"></i></a></li>
+
+                </ul>
+            </div>
+            
+            </div>
+            
+          </div>
+          <div class="footer-content-column">
+            <div class="footer-menu">
+              <!-- <h2 class="footer-menu-name"> Company</h2> -->
+              <ul id="menu-company" class="footer-menu-list">
+                <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                  <a style="color: white;" class="btn btn-link" href="">Farm Plots in Doddaballapura</a>
+
+                </li>
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+                  <a style="color: white;" class="btn btn-link" href="">Ready-to-register Farm Plots</a>
+                </li>
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+                  <a  style="color: white;" class="btn btn-link" href="">Affordable Farm Plots in Doddaballapura</a>
+                </li>
+                <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+                  <a  style="color: white;" class="btn btn-link" href="">Luxury Farm Plots</a>
+
+                </li>
+          
+               
+              </ul>
+            </div>
+           
+          </div>
+          <div class="footer-content-column">
+            <div class="footer-menu">
+              <h2 class="footer-menu-name" style="margin-left: 1rem;"> Quick Links</h2>
+              <ul id="menu-quick-links" class="footer-menu-list">
+                <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                  <a style="color: white;" class="btn btn-link" href="">Plots with Clubhouse and Amenities</a>
+
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                  <a  style="color: white;" class="btn btn-link" href="">Plots near Bren Raceway</a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                  <a  style="color: white;" class="btn btn-link" href="">Farm Plots near Manipal Hospital</a>
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                  <a style="color: white;" class="btn btn-link" href="">Plots with Fruit Plantation</a>
+                </li>
+                <li class="menu-item menu-item-type-post_type_archive menu-item-object-customer">
+                  <a style="color: white;" class="btn btn-link" href="">Plots in Gated Communities</a>
+
+                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                  <a style="color: white;" class="btn btn-link" href="">Premium Plots for Farmhouse Development</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          
+           
+          </div>
+        </div>
+       
+      </footer>
+    </div>
+    
+   
+
+    
+    <div
+    class="modal fade"
+    id="exampleModal"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="./ll.png" alt="modal-logo" class="modal-logo" />
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body gradient_green">
+          <div class="row align-items-center">
+            <div class="col-lg-12">
+              <div class="text-center text-white fs-5">
+                <p>Contact Now For Project Details </p>
+              </div>
+              <div id="contactForm" name="contactForm" class="mt-3">
+                <div class="enq_form">
+                  <div class="row success_msg" style="color: white; display: none;">
+                    <h4>
+                      We appreciate your interest in our project. Our team shall
+                      contact you very soon.
+                    </h4>
+                  </div>
+                  <div class="row error_msg" style="display: none;">
+                    <h4>Sorry! Something went wrong. Please try again.</h4>
+                  </div>
+                  <div class="sidenav_form">
+                    <form
+                      id="main-popup"
+                      name="modal-form"
+                      action="https://formspree.io/f/xgveyvjv"
+                      method="POST"
+                    >
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <div class="form-group">
+                            <input
+                              type="text"
+                              class="form_control name"
+                              name="name"
+                              id="name"
+                              placeholder="Full Name*"
+                              required
+                            />
+                          </div>
+                        </div>
+                        <div class="col-lg-12">
+                          <div class="form-group phone-open-div">
+                            <input
+                              type="tel"
+                              class="form_control phone"
+                              name="phone"
+                              id="phone"
+                              placeholder="Mobile Number*"
+                              required
+                            />
+                          </div>
+                        </div>
+                        <div class="col-lg-12">
+                          <div class="form-group">
+                            <input
+                              type="email"
+                              class="form_control email"
+                              name="email"
+                              id="email"
+                              placeholder="Email address"
+                              
+                            />
+                          </div>
+                        </div>
+                        <div class="col-lg-12">
+                          <div class="form-group">
+                            <div class="text-center">
+                              <button
+                                type="submit"
+                                class="submit_button form_control mt-3 btnn shadow-sm fw-bold"
+                                style="padding: 10px; border: none; color: rgb(0, 0, 0); width: 100%;"
+                              >
+                                SUBMIT
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div
+  class="modal fade"
+  id="exampleModal1"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <img src="./ll.png" alt="modal-logo" class="modal-logo" />
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body gradient_green">
+        <div class="row align-items-center">
+          <div class="col-lg-12">
+            <div class="text-center text-white fs-5">
+              <p>Complete the form to receive the brochure download.</p>
+            </div>
+            <div id="contactForm" name="contactForm" class="mt-3">
+              <div class="enq_form">
+                <div class="row success_msg" style="color: white; display: none;">
+                  <h4>
+                    We appreciate your interest in our project. Our team
+                    shall contact you very soon.
+                  </h4>
+                </div>
+                <div class="row error_msg" style="display: none;">
+                  <h4>Sorry! something went wrong. Please try again.</h4>
+                </div>
+                <div class="sidenav_form">
+                  <form
+                    id="main-popup"
+                    name="modal-form"
+                    action="https://formspree.io/f/xgveyvjv"
+                    method="POST"
+                    onsubmit="clearForm()"
+                  >
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <input
+                            type="text"
+                            class="form_control name"
+                            name="name"
+                            id="name"
+                            placeholder="Full Name*"
+                            required
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-12">
+                        <div class="form-group phone-open-div">
+                          <input
+                            type="tel"
+                            class="form_control phone"
+                            name="phone"
+                            id="phone"
+                            placeholder="Mobile Number*"
+                            required
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <input
+                            type="email"
+                            class="form_control email"
+                            name="email"
+                            id="email"
+                            placeholder="Email address"
+                            
+                          />
+                        </div>
+                      </div>
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <div class="text-center">
+                            <button
+                              type="submit"
+                              class="submit_button form_control mt-3 btnn shadow-sm fw-bold"
+                              style="padding: 10px; border: none; color: rgb(0, 0, 0); width: 100%;"
+                            >
+                              SUBMIT
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+
+
+    
+    <script>
+      $(document).ready(function () {
+  // Function to show the modal
+  function showModal() {
+    // Check if the user has already submitted the form (using localStorage)
+    if (!localStorage.getItem("formSubmitted")) {
+      $("#exampleModal").modal("show");
+    }
+  }
+
+  // Show the modal after an initial delay of 10 seconds
+  setTimeout(function () {
+    showModal();
+    
+    // Set interval to show the modal every 50 seconds, but check if form is submitted
+    setInterval(function() {
+      showModal();
+    }, 50000);
+  }, 10000); // Initial delay of 10 seconds
+  
+  // When the form is submitted
+  $("#main-popup").on("submit", function (e) {
+    // Prevent form submission to handle it manually
+    e.preventDefault();
+
+    // Set a flag in localStorage to indicate form submission
+    localStorage.setItem("formSubmitted", "true");
+
+    // Optionally, you can also submit the form via AJAX or redirect after setting the flag
+    // For now, I'll trigger the modal to close after the flag is set.
+    $("#exampleModal").modal("hide");
+
+    // Optionally, you can clear the form or redirect the user after submission
+    // For example: window.location.href = "thank_you_page.html";
+  });
+});
+
+//       $(document).ready(function () {
+//   // Function to show the modal
+//   function showModal() {
+//     $("#exampleModal").modal("show");
+//   }
+
+//   // Show the modal after an initial delay of 5 seconds
+//   setTimeout(function () {
+//     showModal();
+    
+//     // Set interval to show the modal every 30 seconds
+//     setInterval(showModal, 50000);
+//   }, 10000); // Initial delay of 5 seconds
+// });
+
+      
+      $(document).ready(function(){
+  $('.slick-slider1').slick({
+    slidesToShow: 4,  // Show 4 images on larger screens
+    slidesToScroll: 1,
+    dots: true,
+    infinite: true,
+    responsive: [
+      {
+        breakpoint: 1200,  // For large devices (tablets and up)
+        settings: {
+          slidesToShow: 3,  // Show 3 images on medium screens
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 992,  // For medium devices (tablets)
+        settings: {
+          slidesToShow: 2,  // Show 2 images on smaller tablets
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 576,  // For small devices (phones)
+        settings: {
+          slidesToShow: 1,  // Show 1 image per slide on phones
+          slidesToScroll: 1
+        }
+      }
+    ]
+  });
+});
+
+let currentIndex = 0;
+
+    function moveCarousel(direction) {
+        const container = document.querySelector('.testimonial-container');
+        const totalCards = document.querySelectorAll('.testimonial-card').length;
+        const cardWidth = document.querySelector('.testimonial-card').offsetWidth;
+        const totalWidth = cardWidth * totalCards;
+        const maxIndex = totalCards - 3; // 3 visible cards at a time
+
+        currentIndex = (currentIndex + direction + totalCards) % totalCards;
+        const offset = -currentIndex * cardWidth;
+        container.style.transform = `translateX(${offset}px)`;
+    }
+ // Get all sections and nav links
+ const sections = document.querySelectorAll("section");
+  const navLinks = document.querySelectorAll(".nav-link");
+
+  // Function to update active link
+  function setActiveLink() {
+    sections.forEach((section) => {
+      const sectionTop = section.offsetTop - 100; // Adjust for navbar height
+      const sectionHeight = section.offsetHeight;
+      const scrollPos = window.scrollY;
+
+      if (scrollPos >= sectionTop && scrollPos < sectionTop + sectionHeight) {
+        navLinks.forEach((link) => link.classList.remove("active"));
+        const activeLink = document.querySelector(
+          `a[href="#${section.id}"]`
+        );
+        if (activeLink) activeLink.classList.add("active");
+      }
+    });
+  }
+
+  // Attach scroll event listener
+  window.addEventListener("scroll", setActiveLink);
+
+  // Initial call to set active link
+  setActiveLink();
+
+  document.getElementById("main-popup").addEventListener("submit", function (e) {
+    e.preventDefault(); // Prevent default form submission
+
+    console.log("Form submitted, preparing PDF download...");
+
+    // Trigger PDF download
+    const link = document.createElement("a");
+    link.href = "./assets/Brochure.pdf"; // Path to your PDF
+    link.download = "Brochure.pdf";
+    console.log("Download link created", link.href);
+
+    link.click();
+
+    // Show success message
+    document.querySelector(".success_msg").style.display = "block";
+    console.log("Success message shown");
+
+    // Hide error message if visible
+    document.querySelector(".error_msg").style.display = "none";
+
+    // Clear form fields
+    this.reset();
+});
+
+function handleSubmit(event) {
+    // Prevent default form submission to handle it manually
+    event.preventDefault();
+
+    // Assuming form submission is successful, you can clear the form data
+    var form = document.getElementById('main-popup');
+    form.reset(); // Reset all the form fields
+
+    // Optionally, you can display success message here
+    document.querySelector('.success_msg').style.display = 'block';
+    document.querySelector('.error_msg').style.display = 'none';
+
+    // After a few seconds, hide the success message
+    setTimeout(function () {
+      document.querySelector('.success_msg').style.display = 'none';
+    }, 5000);
+  }
+
+  
+  function clearForm() {
+    // Clears the form after submission
+    document.getElementById('main-popup').reset();
+  }
+  $('#exampleModal1').on('hidden.bs.modal', function () {
+    document.getElementById('main-popup').reset(); // Reset the form
+  });
+   </script>
+   <!-- Include jQuery (if not already included) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Include Bootstrap 5 JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  // Listen for the modal close event to reset the form
+  $('#exampleModal1').on('hidden.bs.modal', function () {
+    // Reset the form
+    $('#main-popup')[0].reset();
+
+    // Optionally clear any other dynamic content like success/error messages, if any
+    $('.success_msg').hide();
+    $('.error_msg').hide();
+  });
+</script>
+
+<script src="./assets/js/custom.js"></script>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<!-- Popper.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Slick CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+<!-- Slick JS -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.slick-slider11').slick({
+      infinite: true,  // Infinite looping of slides
+      slidesToShow: 3, // Number of slides visible at a time
+      slidesToScroll: 1, // Number of slides to scroll at a time
+      autoplay: true,   // Enable auto-scroll
+      autoplaySpeed: 2000, // Time between automatic slides
+      arrows: true,     // Show navigation arrows
+      dots: true,       // Show navigation dots
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+          }
+        }
+      ]
+    });
+  });
+</script>
+
+  </body>
+</html>
