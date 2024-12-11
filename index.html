@@ -349,29 +349,8 @@
             </div>
           </div>
           
-          <!-- <div class="col-lg-6 p-0 order-1 order-lg-2">
-         
-            <div
-              id="carouselExampleControls"
-              class="carousel slide"
-              data-bs-ride="carousel"
-            >
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img
-                    
-                    src="./b.jpg"
-                    alt="bannerimg"
-                    class="bannerimg"
-                    style="margin-top: 2rem;"
-                  />
-                </div>
-                
-               
-              </div>
-              
-            </div>
-          </div> -->
+        
+       
         </div>
       </div>
     </section>
@@ -2007,6 +1986,32 @@ form.addEventListener('submit', async (e) => {
         alert('Error submitting form. Please check your connection.');
     }
 });
+$(document).ready(function () {
+  $('.slick-slider1').slick({
+    arrows: true, // Enable arrows
+    dots: false,  // Disable dots if not needed
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  });
+});
+
 </script>
 
   </body>
